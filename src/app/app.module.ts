@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { MatTableModule } from '@angular/material/table';
 import { MatSelectModule } from '@angular/material/select';
 import { MatCardModule } from '@angular/material/card';
 import { FormsModule } from '@angular/forms'
@@ -25,7 +26,8 @@ import {NoopAnimationsModule} from '@angular/platform-browser/animations';
     FormsModule,
     ReactiveFormsModule,
     MatSelectModule,
-    MatCardModule
+    MatCardModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

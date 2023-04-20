@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
       <app-panel1></app-panel1>
     </div>
     
-    <div>
+    <!-- <div>
       <app-panel2></app-panel2>
-    </div>
+    </div> -->
     
   `,
   styles: []
